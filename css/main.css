@@ -3,7 +3,6 @@
 }
 
 body {
-  
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -34,23 +33,52 @@ body {
     background-color: #04AA6D;
     color: white;
   }
-.hello {
-  text-align:center;
-}
+
+  .hello {
+    text-align:center;
+  }
+
   .eventsnav {
-    background-color: rgb(169, 202, 78);
+    background-color: rgb(247, 247, 246);
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
   .eventsnav p{
-    
     float: none;
     color: #fa0505;
     text-align: center;
     padding: 100px 80px;
     font-size: 24px;
+  }
+
+  .sports {
+    height: 200px;
+    background-image: url('./img/sports.png');
+    background-repeat: no-repeat;
+  }
+
+  .special {
+    height: 200px;
+    background-image: url('./img/special.png');
+    background-repeat: no-repeat;
+  }
+
+  .music {
+    height: 200px;
+    background-image: url('./img/music.png');
+    background-repeat: no-repeat;
+  }
+
+  .arts {
+    height:200px;
+    background-image: url('./img/arts.png');
+  }
+
+  .misc {
+    height:200px;
+    background-image: url('./img/misc.png');
   }
 
   .history {
@@ -65,15 +93,15 @@ body {
     justify-content: center;
   }
   
-img {
-    max-width: 200px;
-    max-height: 100px;
-  }
+  img {
+      max-width: 200px;
+      max-height: 100px;
+    }
 
   .social {
     background-color: rgb(250, 248, 250);
     float: none;
-  color: #fa0505;
+    color: #fa0505;
     text-align: center;
     padding: 20px 10px;
     font-size: 24px;
