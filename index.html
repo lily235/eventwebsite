@@ -3,11 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./css/main.css">
+<script src="./js/app.js"></script>
 </head>
 <body>
 <div class="background">
 <div class="topnav">
-    <a class="active" href="home.html">Home</a> 
+    <a class="active" href="index.html">Home</a> 
   <a href="about.html">About</a>
   <a href="whatson.html">What's On</a>
   <a href="londonlive.html">London Live</a>
@@ -20,19 +21,19 @@
 </div>
 
 <div class="eventsnav">
-    <div class="sports" onclick="alert('sports')">
+    <div class="sports" id="sports" onclick="clicksports()">
         <p>sports</p>
     </div>
-    <div class="special" onclick="alert('special')">
+    <div class="special" id="special" onclick="clickspcial()">
         <p>special</p>
     </div>
-    <div class="music" onclick="alert('music')">
+    <div class="music" id="music" onclick="clickmusic()">
         <p>music</p>
     </div>
-    <div class="arts" onclick="alert('arts')">
+    <div class="arts" id="arts" onclick="clickarts()">
         <p>arts</p>
     </div>
-    <div class="misc" onclick="alert('misc')">
+    <div class="misc" id="misc" onclick="clickmisc()">
         <p>misc</p>
     </div>
 

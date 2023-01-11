@@ -54,30 +54,46 @@ body {
   }
 
   .sports {
-    height: 200px;
+    max-height: 50%;
+    max-width: 50%;
+    /* height: 200px;
+    width: 200px; */
     background-image: url('./img/sports.png');
     background-repeat: no-repeat;
   }
 
   .special {
-    height: 200px;
+    max-height: 50%;
+    max-width: 50%;
+    /* height: 200px;
+    width: 200px; */
     background-image: url('./img/special.png');
     background-repeat: no-repeat;
   }
 
   .music {
-    height: 200px;
+    max-height: 50%;
+    max-width: 50%;
+
+    /* height: 200px;
+    width: 200px; */
     background-image: url('./img/music.png');
     background-repeat: no-repeat;
   }
 
   .arts {
-    height:200px;
+    max-height: 50%;
+    max-width: 50%;
+    /* height: 200px;
+    width: 200px; */
     background-image: url('./img/arts.png');
   }
 
   .misc {
-    height:200px;
+    max-height: 50%;
+    max-width: 50%;
+    /* height: 200px;
+    width: 200px; */
     background-image: url('./img/misc.png');
   }
 
